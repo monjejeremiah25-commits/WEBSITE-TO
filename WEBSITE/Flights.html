@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+
+    <link rel="stylesheet" href="Flights.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Flights.html">Flights</a></li>
+            <li><a href="booking.html">Booking</a></li>
+
+        </ul>
+    </nav>
+
+    <h1>Flights</h1>
+
+    <form>
+
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" placeholder="Departure">
+
+        <br>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" placeholder="Destination">
+
+        <br>
+        <label for="date">Travel Date:</label>
+        <input type="date" id="date" class="box">
+
+        <br>
+        <label for="return">Return Date:</label>
+        <input type="date" id="return" name="return">
+
+        <br>
+        <label for="passengers">Passengers:</label>
+        <input type="number" id="passengers" name="passengers" min="1" value="1">
+
+        <br>
+        <button type="submit">Search Flights</button>
+
+    </form>
+
+</body>
+
+</html>

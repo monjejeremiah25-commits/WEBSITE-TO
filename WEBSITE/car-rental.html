@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Car Rental</title>
+
+    <link rel="stylesheet" href="car-rental.css">
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Flights.html">Flights</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="car-rental.html">Car Rental</a></li>
+        </ul>
+
+    </nav>
+
+    <h1>Rent a car</h1>
+
+    <form>
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" placeholder="Enter location">
+
+    <br>
+    <label for="pickup">Pick-up Date:</label>
+    <input type="date" id="pickup" name="pickup">
+
+    <br>
+    <label for="car">Choose a car:</label>
+    <select id="car" name="car">
+        <option value="sedan">Sedan</option>
+        <option value="minivan">Minivan</option>
+        <option value="sports car">Sports Car</option>
+        <option value="van">Van</option>
+    </select>
+
+    <br>
+    <button type="submit">Search car</button>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Aboreto');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fffcfc;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 15px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+nav a {
+    display: block;
+    color: #444444;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f3efff;
+    color: #6e4ddaff;
+}
+
+h1 {
+    font-family: 'Aboreto', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    color: #333;
+    margin: 30px 0 20px 0;
+    font-size: 24px;
+}
+
+.deal {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #6e4ddaff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.deal h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
+
+.deal p {
+    color: #555;
+    margin: 0;
+    font-size: 16px;
+}
+
+.deal button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #6e4ddaff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 5px;
+}
+
+.deal button:hover {
+    background-color: rgb(131, 97, 244);
+    box-shadow: 0 4px 10px rgba(110, 77, 250, 0.3);
+}
