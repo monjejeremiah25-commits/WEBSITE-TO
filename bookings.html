@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookings</title>
+    <title>Bookings - Petrichor Travels</title>
 
     <link rel="stylesheet" href="bookings.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
@@ -14,7 +14,7 @@
 
     <nav>
         <ul>
-            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="bookings.html">Bookings</a></li>
             <li><a href="Flights.html">Flights</a></li>
         </ul>
@@ -22,22 +22,19 @@
     <h1>Bookings</h1>
 
     <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
 
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name">
+        <br>
+        <label for="date">Travel Date:</label>
+        <input type="date" id="date" name="date">
 
-    <br>
-    <label for="date">Travel Date:</label>
-    <input type="date" id="date" name="date">
+        <br>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to">
 
-    <br>
-    <label for="to">To:</label>
-    <input type="text" id="to" name="to">
-
-
-    <br>
-    <button type="submit">Book na</button>
-
+        <br>
+        <button type="submit">Book na</button>
     </form>
 
 </body>
